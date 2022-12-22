@@ -1,0 +1,448 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+.Netflix{
+    background-image: url(/Netflix/images/netflix-background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    opacity: rgb(128, 6, 6);
+    backface-visibility: visible;
+}
+.img1{
+    padding: 20px;
+    border-radius: 30%;
+    opacity: 2.5;
+    max-width: 100%;
+}
+span{
+    color: red;
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-size: 50px;
+    margin: 40px;
+    padding-top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero__card {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    margin: 200px;
+    margin-left: 290px;
+    max-width: 100%;
+  }
+  
+  .hero__title {
+    font-weight: 600;
+    font-size: 3rem;
+    max-width: 100%;
+  }
+  
+  .hero__subtitle,
+  .hero__description {
+    font-weight: 400;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  
+  .hero__description {
+    margin: 0 50px;
+  }
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    margin-right: 20px;
+    text-decoration: none;
+    max-width: 100%;
+}
+.Sign-in{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(191, 24, 24);
+    background-color: rgb(181, 28, 28);
+    width: 80px;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 10px;
+    max-width: 100%;
+}
+.Container{
+    text-align: center;
+    margin: 150px;
+    color: white;
+
+}
+.W{
+    font-weight: bold;
+    font-size: 80px;
+    word-spacing: -11px;
+    margin: 10px;
+}
+.B{
+    font-weight: normal;
+    font-size: 20px;
+}
+.C{
+    font-weight: normal;
+    font-size: 17px;
+    margin: 14px;
+}
+.email{
+    padding: 19px;
+    width: 550px;
+}
+.n{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0, 0.8)100%);
+}
+.Get-Started{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(181, 28, 28);
+    background-color: rgb(181, 28, 28);
+    width: 100px;
+    padding: 17px 40px;
+    margin: -3px;
+}
+.text1{
+    background-color: black;
+    height: 400px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 2px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+.text{
+    background-color: black;
+    height: 300px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 2px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+#E{
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+    margin-left: 240px;
+    padding-top: 10px;
+    margin-top: -190px;
+}
+#E1{
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+    margin-left: 750px;
+    padding-top: 1px;
+    margin-top: -190px;
+    width: 500px;
+}
+#W2{
+    font-size: 22px;
+    color: white;
+    font-weight: normal;
+    margin-left: 750px;
+    padding-top: 20px;
+    margin-top: -1px;
+    width: 600px;
+    line-height: -15px;
+    word-spacing: 2px;
+}
+#A{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 185px;
+    padding-top: 10px;
+    margin-top: 50px;
+
+}
+#SecondText{
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 500px;
+}
+#W{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+#Ww{
+    font-size: 20xpx;
+    color: white;
+    margin-left: 240px;
+    margin-top: 7px;
+}
+.img2{
+    width: 400px;
+    margin-left: 800px;
+    margin-top: 40px;
+    font-size: 20px;
+    max-width: 100%;
+}
+.Page2{
+    background-color: black;
+    height: 400px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 2px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+.Page3{
+    background-color: black;
+    height: 250px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 3px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+.Page1{
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+    margin-left: 150px;
+    padding-top: 230px;
+    margin-top: -190px;
+    width: 400px;
+}
+#FirstText{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-left: 650px;
+    padding-top: 1px;
+    margin-top: -200px;
+    width: 500px;
+}
+#SecondTexts{
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+    margin-left: 650px;
+    padding-top: 20px;
+    margin-top: -1px;
+    width: 500px;
+    line-height: -15px;
+    word-spacing: 2px;
+}
+.Page4{
+    background-color: black;
+    height: 750px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 3px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+.F{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.N{
+    text-align: left;
+    color: white;
+    border: 2px solid black;
+    width: 800px;
+    padding: 16px;
+    background-color: rgb(53, 51, 51);
+    font-size: 25px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    position: relative;
+}
+#F{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.H{
+    text-align: left;
+    color: white;
+    border: 2px solid black;
+    width: 800px;
+    padding: 16px;
+    background-color: rgb(53, 51, 51);
+    font-size: 25px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    position: relative;
+}
+#H1{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Q{
+    text-align: left;
+    color: white;
+    border: 2px solid black;
+    width: 800px;
+    padding: 16px;
+    background-color: rgb(53, 51, 51);
+    font-size: 25px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    position: relative;
+    word-spacing: 1px;
+    font-weight: normal;
+}
+#W1{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.i{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.email1{
+    padding: 19px;
+    width: 550px;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+.Page5{
+    background-color: black;
+    height: 400px;
+    border-top: 7px solid rgb(50, 47, 47);
+    border-bottom: 3px solid rgb(50, 47, 47);
+    border-radius: 1px;
+    position: relative;
+}
+.question{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 13px;
+}
+.question1{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.question2{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.question3{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.question4{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.question5{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 10px;
+}
+.qst1{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 550px;
+    margin-top: -185px;
+    font-size: 10px;
+}
+.qst2{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 550px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+.qst3{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 550px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.qst4{
+    color: rgb(99, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .Page5 {
+            padding: 2rem 20rem;
+            justify-content: flex-start;
+            text-align: left;
+            align-items: flex-start;
+          }
+    }
+ 
+@media screen and (max-width: 1000px){
+    .img2{
+        width: 400px;
+        margin-left: 3em;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Netflix {
+      margin: 2px 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .hero__title,.hero__description,.hero__subtitle {
+      margin-right: -90em;
+      
+    }
+  }
