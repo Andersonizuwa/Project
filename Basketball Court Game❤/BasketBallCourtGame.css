@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+.Sc{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: 480px;
+    margin-top: 35px;
+    border: 2px solid black;
+    width: 30%;
+}
+.Home{
+    text-align: center;
+    margin: 25px;
+    margin-left: -170px;
+    font-size: 2rem;
+}
+.AWAY{
+    text-align: center;
+    margin-top: -53px;
+    margin-left: 350px;
+    font-size: 2rem;
+}
+.Inner1{
+    border: 2px solid black;
+    width: 150px;
+    padding: 20px;
+    margin-left: 475px;
+    margin-top: 10px;
+}
+.Inner2{
+    border: 2px solid black;
+    width: 150px;
+    padding: 20px;
+    margin-left: 750px;
+    margin-top: -43px; 
+    text-align: center;
+}
+.one{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 476px;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+}
+.two{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 530px;
+    margin-top: -50px;
+    text-align: center;
+    height: 50px;
+}
+.three{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 580px;
+    margin-top: -50px;
+    text-align: center;
+    height: 50px;
+}
+.one1{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 750px;
+    margin-top: -50px;
+    text-align: center;
+    height: 50px;
+}
+.two2{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 800px;
+    margin-top: -50px;
+    text-align: center;
+    height: 50px; 
+}
+.three3{
+    border: 2px solid black;
+    width: 40px;
+    padding: 15px;
+    padding-left: 2px;
+    margin-left: 850px;
+    margin-top: -50px;
+    text-align: center;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .Inner1{
+   margin-left: 20px;
+    }
+    .Inner2{
+margin-left: 350px;
+    }
+    .Sc{
+        margin-left: 200px;
+    }
+    .one{
+        margin-left: 20px;
+      
+    }
+    .two{
+        margin-left: 70px;
+    }
+    .three{
+        margin-left: 130px;
+    }
+    .one1{
+        margin-left: 350px;
+    }
+    .two2{
+        margin-left: 400px;
+    }
+    .three3{
+        margin-left: 450px;
+    }
+}
