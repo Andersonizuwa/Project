@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#Cal{
+    text-align: center;
+    margin-left: 550px;
+    border-bottom: 2px solid black;
+    width: 200px;
+    margin-top: 40px;
+}
+.calculator{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 5px gray;
+    background-color: white;
+}
+.Input1{
+    padding: 10px;
+    margin: 17px;
+    width: 100px;
+}
+#Plus1{
+    margin-bottom: -900px;
+    margin-left: 20px;
+    display: inline;
+    width: 100px;
+}
+#Plus{
+    font-size: 30px;
+}
+#minus1{
+    margin-bottom: -900px;
+    margin-left: 20px;
+    display: inline;
+    width: 100px;
+}
+#minus{
+    font-size: 30px;
+}
+#Divide1{
+margin-top: 20px;
+display: block;
+width: 100px;
+font-size: 20px;
+margin-left: 20px;
+}
+#Multliply{
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 20px;
+    } 
+    #Input1{
+        margin-left: 70px;
+        margin-top: 100px;
+        padding: 20px;
+        display: inline;
+    }
+ 
+#Input2{
+    margin-left: 70px;
+    margin-top: 100px;
+    padding: 20px;
+    display: inline;
+}
+    
