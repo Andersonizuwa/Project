@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App With JavaScricpt</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="Quizapp.css">
+</head>
+<body>
+
+    <div class="main">
+        <nav class="navbar">
+            <img  onclick="DarkMode()" class="Img1" src="../CSS/logoipsum-283.svg">
+            <img onclick="LightMode()" class="img2" src="../CSS/logoipsum-280.svg" alt="">
+        </nav>
+        <div class="content">
+            <h1 class="Heading">Welcome to my Quiz Game App<span><i class="fa-brands fa-plus"></i></span></h1>
+            <h2 id="IK" class="Question"> Which one is the Lowest Number 100 and 2</h2>
+            <div class="inputs">
+                <input  class="Oct" type="text" id="October" name="October 1770" value=""/> 
+                <input  id="btn" onclick="Validation()" type="submit" value="Submit Anwser">
+                <input  id="btn" onclick="tryagain()" type="submit" value="Try again">
+            </div>
+            <p id="Help"></p>
+        </div>   
+    </div>
+</body>
+<script src="QuizApp.js"></script>
+</html>

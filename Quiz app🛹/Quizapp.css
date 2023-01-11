@@ -1,0 +1,35 @@
+:root{
+    --bg-color: rgb(204, 204, 47)
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 9em;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.inputs > input:not(.Oct){
+    width: 50%;
+    font-weight: 500;
+    font-size: 17px;
+    margin: auto;
+}
+
+.inputs > input:is(.Oct){
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 1em;
+}
+
+
